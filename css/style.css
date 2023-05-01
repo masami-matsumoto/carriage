@@ -766,3 +766,10 @@ body > main > section, body > aside {
 .product .button {
   margin: var(--spacing-sm) auto 0;
 }
+
+@media only screen and (max-width: 479px) {
+  /* スマートフォン用のCSS */
+  .sp_font {
+      color: white;
+  }
+}
